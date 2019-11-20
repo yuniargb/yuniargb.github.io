@@ -1,22 +1,142 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
     <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+</head>
 
+<body>
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#about">Profile</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Personal Project</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- jumbotron -->
+    <div class="jumbotron text-center">
+        <img src="assets/image/profile.jpg" class="rounded-circle shadow" alt="yuniar giffari bachri">
+        <h1 class="display-4 mt-2 font-weight-bold text-light text-shadow">Yuniar Giffari Bachri</h1>
+        <hr class="my-4 border-light">
+        <p class="text-light">Web Programmer / Web Developer</p>
+        <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Detail</a> -->
+    </div>
+
+    <div class="group-1 pb-4">
+        <!-- address -->
+        <div id="address" class="container shadow bg-light rounded pt-1 text-center py-3 address">
+            <div class="row ">
+                <div class="col-md-3 pt-3">
+                    <i class="fab fa-linkedin fa-3x mb-3"></i>
+                </div>
+                <div class="col-md-3 pt-3">
+                    <i class="fab fa-github fa-3x mb-3"></i>
+                </div>
+                <div class="col-md-3 pt-3">
+                    <i class="fab fa-instagram fa-3x mb-3"></i>
+                </div>
+                <div class="col-md-3 pt-3">
+                    <i class="fab fa-facebook-square fa-3x mb-3"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- about me -->
+        <div id="about" class="container text-center bg-light mt-5 shadow rounded p-4">
+            <h3 class="display-4 mt-2 font-weight-bold text-shadow">ABOUT ME</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate similique eum ullam eaque, quas ipsa
+                dolorum! Recusandae sint quas necessitatibus, architecto aperiam, consequatur commodi iste vel amet quae
+                perspiciatis distinctio ut fugit? Repellat placeat omnis, accusamus fugit neque beatae minima
+                perferendis
+                eius, obcaecati provident, ab ipsa minus voluptatibus natus cum. Assumenda quas sit saepe voluptate
+                placeat
+                magni molestias quis porro laudantium sed officiis veniam voluptatibus qui optio, vitae temporibus
+                delectus
+                minus quod culpa rem corporis. Dolore saepe maiores voluptatibus consectetur.</p>
+        </div>
+    </div>
+    <div id="education" class="group-2 bg-secondary p-4">
+        <h4 class="display-4 mt-2 font-weight-bold text-shadow text-center">EDUCATION</h4>
+        <hr>
+        <dl class="row">
+            <dt class="col-sm-6 text-right">
+                <p>2003 - 2009</p>
+            </dt>
+            <dd class="col-sm-6">SDN PANUNGGAN 5</dd>
+
+            <dt class="col-sm-6 text-right">
+                <p>2009 - 2012</p>
+            </dt>
+            <dd class="col-sm-6">SMPN 14 TANGERANG</dd>
+            <dt class="col-sm-6 text-right">
+                <p>2012 - 2015</p>
+                <p>Social Science</p>
+            </dt>
+            <dd class="col-sm-6">SMAN 4 TANGERANG</dd>
+            <dt class="col-sm-6 text-right">
+                <p>2015 - 2019</p>
+                <p>Information System</p>
+            </dt>
+            <dd class="col-sm-6">UNIVERSITAS BUDI LUHUR</dd>
+
+        </dl>
+    </div>
+    <div class="group-1 pb-4">
+        <!-- about me -->
+        <div id="about" class="container text-center bg-light mt-5 shadow rounded p-4">
+            <h3 class="display-4 mt-2 font-weight-bold text-shadow">CONTACT</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate similique eum ullam eaque, quas ipsa
+                dolorum! Recusandae sint quas necessitatibus, architecto aperiam, consequatur commodi iste vel amet quae
+                perspiciatis distinctio ut fugit? Repellat placeat omnis, accusamus fugit neque beatae minima
+                perferendis
+                eius, obcaecati provident, ab ipsa minus voluptatibus natus cum. Assumenda quas sit saepe voluptate
+                placeat
+                magni molestias quis porro laudantium sed officiis veniam voluptatibus qui optio, vitae temporibus
+                delectus
+                minus quod culpa rem corporis. Dolore saepe maiores voluptatibus consectetur.</p>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>

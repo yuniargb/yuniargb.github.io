@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    background-color: #e7e6e6;
+    font-family: 'Muli', sans-serif;
+}
+
+.jumbotron {
+    background-image: url('../image/jumbotron.jpg');
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: -10% 100%;
+    background-attachment: fixed;
+    border-radius: 0px;
+}
+
+.address {
+    margin-top: -60px;
+    /* background-color: #e7e6e6; */
+}
+
+.group-2 {
+    background-color: rgb(202, 202, 202) !important;
+    color: rgb(63, 63, 63);
+}
